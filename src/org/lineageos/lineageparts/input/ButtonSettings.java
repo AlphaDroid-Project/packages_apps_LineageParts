@@ -51,7 +51,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
-import lineageos.hardware.LineageHardwareManager;
+import com.android.internal.lineage.hardware.LineageHardwareManager;
 import lineageos.providers.LineageSettings;
 
 public class ButtonSettings extends SettingsPreferenceFragment

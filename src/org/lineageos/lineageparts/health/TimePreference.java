@@ -23,7 +23,7 @@ import org.lineageos.lineageparts.R;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-import lineageos.health.HealthInterface;
+import com.android.internal.lineage.health.HealthInterface;
 
 public abstract class TimePreference extends CustomDialogPreference<AlertDialog> {
     private static final String TAG = TimePreference.class.getSimpleName();

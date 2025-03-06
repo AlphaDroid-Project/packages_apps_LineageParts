@@ -26,14 +26,14 @@ import org.lineageos.lineageparts.SettingsPreferenceFragment;
 import org.lineageos.lineageparts.search.BaseSearchIndexProvider;
 import org.lineageos.lineageparts.search.Searchable;
 
-import lineageos.health.HealthInterface;
+import com.android.internal.lineage.health.HealthInterface;
 import lineageos.preference.LineageSystemSettingListPreference;
 import lineageos.preference.LineageSystemSettingMainSwitchPreference;
 import lineageos.providers.LineageSettings;
 
-import static lineageos.health.HealthInterface.MODE_AUTO;
-import static lineageos.health.HealthInterface.MODE_MANUAL;
-import static lineageos.health.HealthInterface.MODE_LIMIT;
+import static com.android.internal.lineage.health.HealthInterface.MODE_AUTO;
+import static com.android.internal.lineage.health.HealthInterface.MODE_MANUAL;
+import static com.android.internal.lineage.health.HealthInterface.MODE_LIMIT;
 
 public class ChargingControlSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Searchable {

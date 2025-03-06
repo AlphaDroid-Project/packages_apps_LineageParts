@@ -22,8 +22,8 @@ import org.lineageos.lineageparts.widget.CustomDialogPreference;
 import org.lineageos.lineageparts.R;
 import org.lineageos.internal.util.MathUtils;
 
-import lineageos.hardware.LiveDisplayConfig;
-import lineageos.hardware.LiveDisplayManager;
+import com.android.internal.lineage.hardware.LiveDisplayConfig;
+import com.android.internal.lineage.hardware.LiveDisplayManager;
 
 /**
  * Preference for selection of color temperature range for LiveDisplay

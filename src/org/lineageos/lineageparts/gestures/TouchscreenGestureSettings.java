@@ -16,8 +16,8 @@ import android.util.ArraySet;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceManager;
 
-import lineageos.hardware.LineageHardwareManager;
-import lineageos.hardware.TouchscreenGesture;
+import com.android.internal.lineage.hardware.LineageHardwareManager;
+import com.android.internal.lineage.hardware.TouchscreenGesture;
 
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;

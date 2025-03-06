@@ -21,7 +21,7 @@ import org.lineageos.lineageparts.widget.CustomDialogPreference;
 import org.lineageos.lineageparts.widget.IntervalSeekBar;
 import org.lineageos.lineageparts.R;
 
-import lineageos.hardware.LiveDisplayManager;
+import com.android.internal.lineage.hardware.LiveDisplayManager;
 
 /**
  * Special preference type that allows configuration of Color settings

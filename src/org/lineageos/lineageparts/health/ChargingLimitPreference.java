@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import lineageos.health.HealthInterface;
+import com.android.internal.lineage.health.HealthInterface;
 
 import org.lineageos.lineageparts.R;
 

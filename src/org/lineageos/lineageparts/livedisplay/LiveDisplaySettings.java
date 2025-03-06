@@ -41,25 +41,25 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import lineageos.hardware.LineageHardwareManager;
-import lineageos.hardware.DisplayMode;
-import lineageos.hardware.LiveDisplayConfig;
-import lineageos.hardware.LiveDisplayManager;
+import com.android.internal.lineage.hardware.LineageHardwareManager;
+import com.android.internal.lineage.hardware.DisplayMode;
+import com.android.internal.lineage.hardware.LiveDisplayConfig;
+import com.android.internal.lineage.hardware.LiveDisplayManager;
 import lineageos.preference.SettingsHelper;
 import lineageos.providers.LineageSettings;
 
-import static lineageos.hardware.LiveDisplayManager.FEATURE_ANTI_FLICKER;
-import static lineageos.hardware.LiveDisplayManager.FEATURE_CABC;
-import static lineageos.hardware.LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT;
-import static lineageos.hardware.LiveDisplayManager.FEATURE_COLOR_ENHANCEMENT;
-import static lineageos.hardware.LiveDisplayManager.FEATURE_DISPLAY_MODES;
-import static lineageos.hardware.LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT;
-import static lineageos.hardware.LiveDisplayManager.FEATURE_READING_ENHANCEMENT;
-import static lineageos.hardware.LiveDisplayManager.MODE_AUTO;
-import static lineageos.hardware.LiveDisplayManager.MODE_DAY;
-import static lineageos.hardware.LiveDisplayManager.MODE_NIGHT;
-import static lineageos.hardware.LiveDisplayManager.MODE_OFF;
-import static lineageos.hardware.LiveDisplayManager.MODE_OUTDOOR;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.FEATURE_ANTI_FLICKER;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.FEATURE_CABC;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.FEATURE_COLOR_ENHANCEMENT;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.FEATURE_DISPLAY_MODES;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.FEATURE_READING_ENHANCEMENT;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.MODE_AUTO;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.MODE_DAY;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.MODE_NIGHT;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.MODE_OFF;
+import static com.android.internal.lineage.hardware.LiveDisplayManager.MODE_OUTDOOR;
 
 public class LiveDisplaySettings extends SettingsPreferenceFragment implements Searchable,
         Preference.OnPreferenceChangeListener, SettingsHelper.OnSettingsChangeListener {

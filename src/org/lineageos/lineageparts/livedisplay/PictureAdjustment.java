@@ -24,8 +24,8 @@ import org.lineageos.lineageparts.R;
 
 import java.util.List;
 
-import lineageos.hardware.HSIC;
-import lineageos.hardware.LiveDisplayManager;
+import com.android.internal.lineage.hardware.HSIC;
+import com.android.internal.lineage.hardware.LiveDisplayManager;
 
 /**
  * Special preference type that allows configuration of Color settings
