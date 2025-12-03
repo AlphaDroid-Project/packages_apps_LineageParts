@@ -1,6 +1,6 @@
 /*
  * SPDX-FileCopyrightText: 2015 The CyanogenMod Project
- * SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+ * SPDX-FileCopyrightText: 2017-2025 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.android.settings.lineage.livedisplay;
@@ -47,6 +47,7 @@ import com.android.settings.lineage.SettingsPreferenceFragment;
 import com.android.settings.lineage.search.BaseSearchIndexProvider;
 import com.android.settings.lineage.search.SearchIndexableRaw;
 import com.android.settings.lineage.search.Searchable;
+import com.android.settings.lineage.utils.GenericUtils;
 import com.android.settings.lineage.utils.ResourceUtils;
 
 import java.util.Collections;
@@ -385,6 +386,11 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
         updateReadingModeStatus();
     }
 
+    public static void restoreLiveDisplay(Context context) {
+        GenericUtils.setComponentEnabled(context, LiveDisplaySettings.class.getName(),
+                context.getResources().getBoolean(
+                        com.android.internal.R.bool.config_enableLiveDisplay));
+    }
 
     public static final Searchable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
